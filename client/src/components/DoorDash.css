@@ -1,26 +1,36 @@
+/* DoorDash Section Styling */
 .doordash-section {
-    padding: 40px;
-    text-align: center;
-    background-color: #f4f4f4;
-  }
-  
-  .doordash-section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .doordash-section button {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #ff4500;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .doordash-section button:hover {
-    background-color: #e03d00;
-  }
-  
+  padding: 60px 0;
+  text-align: center;
+  background-color: #07252d; /* Match the dark blue background */
+  color: #ead8be; /* Light gold text color to match the theme */
+  font-family: 'Georgia', serif; /* Keep font consistent with the site */
+}
+
+/* Heading Styling */
+.doordash-section h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #ead8be; /* Light gold for the heading */
+  font-family: 'Playfair Display', serif; /* Use classy font for headings */
+  font-weight: normal; /* No bold styling */
+}
+
+/* Button Styling */
+.doordash-section button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ff4500; /* The original button color is kept for a CTA contrast */
+  color: #fff;
+  border: none;
+  border-radius: 50px; /* Rounded corners */
+  cursor: pointer;
+  font-family: 'Georgia', serif; /* Keep button font consistent */
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transitions */
+}
+
+/* Button Hover Effect */
+.doordash-section button:hover {
+  background-color: #e03d00; /* Slightly darker shade on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}

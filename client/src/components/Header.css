@@ -1,0 +1,124 @@
+/* Main Header Styling */
+.header {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #07252d; /* Dark blue background */
+    color: #ead8be; /* Light gold color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Georgia', serif;
+    transition: all 0.3s ease; /* Smooth transition for responsiveness */
+}
+
+/* Header Inner Container */
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    width: 60px; /* Adjust the logo size */
+    height: auto;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 30px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ead8be;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #fff; /* White on hover */
+}
+
+/* Hamburger Menu Icon */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 1100; /* Ensure it is above other elements */
+    margin-right: 35vw;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #ead8be;
+    transition: all 0.3s ease;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Positioned below the header */
+    left: 0;
+    width: 100%;
+    background-color: #07252d;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.mobile-menu a {
+    padding: 10px 0;
+    border-bottom: 1px solid #ead8be;
+    text-align: center;
+}
+
+.mobile-menu a:hover {
+    color: #fff; /* White on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide links on mobile */
+    }
+
+    .hamburger {
+        display: flex; /* Show hamburger icon on mobile */
+    }
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    .logo {
+        width: 40px; /* Resize logo on smaller screens */
+    }
+}
+
+/* Hamburger Animation */
+.hamburger.active div:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active div:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active div:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}

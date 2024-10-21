@@ -16,6 +16,8 @@
     position: relative; /* For sliding effect */
     overflow: hidden; /* Hide content during slide transition */
     min-height: 325px; /* Set a min-height to prevent resizing */
+    margin-bottom: 10vh;
+
 }
 
 .testimonial-title {
@@ -79,7 +81,7 @@
 /* Onion Illustration Styling */
 .onion-illustration {
     position: absolute;
-    left: 0vw; /* Position on the left */
+    left: 25vw; /* Position on the left */
     top: -10vh; /* Position towards the top */
     width: 150px; /* Set width */
     opacity: 0.8; /* Subtle opacity effect */

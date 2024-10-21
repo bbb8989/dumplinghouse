@@ -7,16 +7,14 @@ import Location from './components/Location';
 import DoorDash from './components/DoorDash';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
-
+import Header from './components/Header'; // Import Header
 
 function App() {
   return (
     <div>
+      <Header /> {/* Add Header here */}
       <Hero />
       <DoorDash />
-      <About />
-      <Menu />
-      <FoodShowcase />
       <About />
       <Location />
       <Testimonials />

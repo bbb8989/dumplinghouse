@@ -69,6 +69,7 @@ const Testimonials = () => {
           <p className="testimonial-quote">“{testimonialsData[currentIndex].quote}”</p>
           <p className="testimonial-author">- {testimonialsData[currentIndex].author}</p>
         </div>
+      </div>
         {/* Onion Illustration */}
         <img
           src={onion}
@@ -76,7 +77,6 @@ const Testimonials = () => {
           className="onion-illustration"
           style={onionStyle} // Apply the vertical scroll effect
         />
-      </div>
     </section>
   );
 };
