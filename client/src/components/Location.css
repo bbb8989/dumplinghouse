@@ -1,0 +1,68 @@
+/* Location Section Styling */
+.location-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #07252d; /* Matches the dark blue background */
+    color: #e0c59d; /* Light gold color to match the theme */
+    font-family: 'Georgia', serif; /* Consistent font */
+    position: relative; /* Required for the grapefruit positioning */
+    overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+/* Heading Styling */
+.location-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #e0c59d; /* Light gold for heading */
+}
+
+/* Google Maps Container Styling */
+.map-container {
+    width: 100%;
+    max-width: 800px; /* Limit the width of the map */
+    height: 400px;
+    margin: 20px auto; /* Center the map container */
+}
+
+.location-section iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Paragraph Styling */
+.location-section p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #e0c59d; /* Light gold for text */
+}
+
+/* Hover effect for heading */
+.location-section h2:hover {
+    color: #fff; /* White on hover */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Grapefruit Illustration */
+.grapefruit {
+    position: absolute;
+    right: 10vw; /* Move it to the left */
+    bottom: 0vh; /* Bring it higher */
+    width: 200px; /* Slightly increase width */
+    opacity: 0.8; /* Subtle opacity effect */
+    pointer-events: none; /* Prevent interaction with the image */
+    transition: transform 0.1s ease-out; /* Smooth movement */
+}
+
+/* Rosemary Illustration */
+.rosemary {
+    position: absolute;
+    left: 0vw; /* Place it on the left */
+    top: -15vh; /* Place it near the top */
+    height: auto; /* Maintain aspect ratio */
+    width: 17vw; /* Set the size of the rosemary */
+    opacity: 0.8; /* Subtle opacity effect */
+    pointer-events: none; /* Prevent interaction with the image */
+    display: block; /* Ensure the element is displayed */
+}
+

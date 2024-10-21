@@ -1,0 +1,102 @@
+/* Main Footer Styles */
+.footer {
+    background-color: #0b333e; /* Dark blue background */
+    color: #e0c59d; /* Light gold text color */
+    padding: 40px 20px;
+    position: relative; /* For the illustration */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Georgia', serif; /* Classy, serif font for a professional look */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+  }
+  
+  /* Adjust footer sections */
+  .footer-left, .footer-center, .footer-right {
+    flex: 1;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer-center {
+    text-align: center;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  /* Footer logo styles */
+  .footer-logo {
+    width: 150px; /* Adjust logo size */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer text styling */
+  .footer-center h3, .footer-right p {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  .footer-center h3:hover {
+    color: #fff; /* Hover color change for links */
+  }
+  
+  /* Social and Legal Links */
+  .footer-bottom {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-links p, .legal-links p {
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .social-links p:hover, .legal-links p:hover {
+    color: #fff;
+  }
+  
+  .legal-links {
+    display: flex;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    text-align: right;
+    margin-left: auto;
+  }
+  
+  /* Footer Illustration Styling (Barrel Image) */
+  .footer-illustration {
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    width: 400px; /* Adjust to the size you want */
+    opacity: 0.25; /* Half transparency */
+    margin-right: 10vw;
+  }
+  

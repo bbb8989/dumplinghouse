@@ -1,0 +1,29 @@
+.food-showcase {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .food-showcase h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  .food-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .food-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .food-item img:hover {
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,26 @@
+.menu-section {
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .menu-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .menu-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-section li {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .menu-section li p {
+    margin-top: 5px;
+    color: #666;
+  }
+  
