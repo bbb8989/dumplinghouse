@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dumplinghouse/static/css/main.a6e2811f.css",
+    "main.js": "/dumplinghouse/static/js/main.92180549.js",
+    "static/js/453.419a5d54.chunk.js": "/dumplinghouse/static/js/453.419a5d54.chunk.js",
+    "static/media/restaurant_logo.png": "/dumplinghouse/static/media/restaurant_logo.ef4eadd56e9c274efb39.png",
+    "static/media/logo_notext.png": "/dumplinghouse/static/media/logo_notext.a1a9b13e30ea8a5b0a6b.png",
+    "static/media/barrel.png": "/dumplinghouse/static/media/barrel.51499f3dbdb86a3bd3bd.png",
+    "static/media/khuushur.jpg": "/dumplinghouse/static/media/khuushur.50d6e7c337df5ac71b0d.jpg",
+    "static/media/rosemary.png": "/dumplinghouse/static/media/rosemary.a5a540434352bf9059a7.png",
+    "static/media/buuz.jpg": "/dumplinghouse/static/media/buuz.d84dbddb36046362de25.jpg",
+    "static/media/berry.png": "/dumplinghouse/static/media/berry.d67f9102f4d0f4fa2796.png",
+    "static/media/grapefruit.png": "/dumplinghouse/static/media/grapefruit.a583732c6ed187f597d5.png",
+    "static/media/onion.png": "/dumplinghouse/static/media/onion.b03b6df310231c5c144a.png",
+    "static/media/clam.png": "/dumplinghouse/static/media/clam.0ab6d8e6964f8b17332b.png",
+    "index.html": "/dumplinghouse/index.html",
+    "main.a6e2811f.css.map": "/dumplinghouse/static/css/main.a6e2811f.css.map",
+    "main.92180549.js.map": "/dumplinghouse/static/js/main.92180549.js.map",
+    "453.419a5d54.chunk.js.map": "/dumplinghouse/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6e2811f.css",
+    "static/js/main.92180549.js"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "short_name": "Dumpling House",
+  "name": "Dumpling House Mongolian Cuisine",
+  "icons": [
+    {
+      "src": "restaurant_logo.png",
+      "type": "image/png",
+      "sizes": "333x335"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
