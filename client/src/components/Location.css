@@ -11,9 +11,14 @@
 
 /* Heading Styling */
 .location-section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #e0c59d; /* Light gold for heading */
+    font-size: 48px;
+    color: #ead8be;
+    font-family: 'Playfair Display', serif; /* Different font for a classy touch */
+    font-weight: normal; /* Remove bold styling */
+    display: inline-block;
+    margin-right: 20px; /* Adjust space between text and lines */
+    position: relative;
+    white-space: nowrap; /* Prevents text from breaking */
 }
 
 /* Google Maps Container Styling */
@@ -22,6 +27,7 @@
     max-width: 800px; /* Limit the width of the map */
     height: 400px;
     margin: 20px auto; /* Center the map container */
+    margin-top: 0vh;
 }
 
 .location-section iframe {

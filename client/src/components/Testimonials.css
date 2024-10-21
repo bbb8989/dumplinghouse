@@ -19,10 +19,11 @@
 }
 
 .testimonial-title {
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: normal; /* Remove bold styling */
     margin-bottom: 30px;
-    color: #e0c59d;
+    color: #ead8be;
+    font-family: 'Playfair Display', serif; /* Different font for a classy touch */
 }
 
 .testimonial-quote {

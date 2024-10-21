@@ -22,13 +22,13 @@ const Location = () => {
   // Only move vertically (Y-axis) based on scroll position for grapefruit
   const grapefruitStyle = {
     transform: `translateY(${scrollPosition * -0.15}px)`, // Only vertical movement
-    transition: 'transform 0.1s ease-out', // Smooth scrolling transition
+    transition: 'transform 1s ease-out', // Smooth scrolling transition
   };
 
   // Only move vertically (Y-axis) based on scroll position for rosemary
   const rosemaryStyle = {
     transform: `translateY(${scrollPosition * 0.1}px)`, // Only vertical movement (slightly different speed)
-    transition: 'transform 0.1s ease-out', // Smooth scrolling transition
+    transition: 'transform 1s ease-out', // Smooth scrolling transition
   };
 
   return (

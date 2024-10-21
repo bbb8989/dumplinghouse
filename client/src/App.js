@@ -17,6 +17,7 @@ function App() {
       <About />
       <Menu />
       <FoodShowcase />
+      <About />
       <Location />
       <Testimonials />
       <Footer />

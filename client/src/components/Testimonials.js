@@ -58,7 +58,7 @@ const Testimonials = () => {
   // Only move vertically (Y-axis) based on scroll position
   const onionStyle = {
     transform: `translateY(${scrollPosition * 0.15}px)`, // Only vertical movement
-    transition: 'transform 0.1s ease-out', // Smooth scrolling transition
+    transition: 'transform 1s ease-out', // Smooth scrolling transition
   };
 
   return (
