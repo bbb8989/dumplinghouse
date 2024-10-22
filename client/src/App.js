@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -12,21 +11,24 @@ import MenuPage from './components/Menupage';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}> {/* Add basename here */}
       <Routes>
-        <Route path="/" element={
-          <>
-            <Header />
-            <Hero />
-            <DoorDash />
-            <About />
-            <MenuSection />
-            <Location />
-            <Testimonials />
-            <Footer />
-          </>
-        } />
-        <Route path="/menu" element={<MenuPage />} /> {/* Full menu page */}
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+              <Hero />
+              <DoorDash />
+              <About />
+              <MenuSection />
+              <Location />
+              <Testimonials />
+              <Footer />
+            </>
+          }
+        />
+        <Route path="/menu" element={<MenuPage />} />
       </Routes>
     </Router>
   );
