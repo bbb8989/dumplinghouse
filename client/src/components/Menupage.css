@@ -1,3 +1,8 @@
+/* Global fix to remove horizontal scroll */
+body, html {
+  overflow-x: hidden;
+}
+
 /* Main Menu Page Styling */
 .menu-page {
   background-color: #07252d; /* Dark blue background */
@@ -99,7 +104,7 @@
   position: absolute;
   opacity: 0.3;
   pointer-events: none;
-  z-index: 0; /* Behind content */
+  z-index: 1; /* Behind content */
 }
 
 
