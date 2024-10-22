@@ -20,7 +20,7 @@ const Footer = () => {
 
         {/* Contact Information (Right Section) */}
         <div className="footer-right">
-          <p>(343) 454-4364</p>
+          <p>(415) 424-7167</p>
           <p>dumplinghcloud3@gmail.com</p>
           <p>1200 Market St, San Francisco, US</p>
         </div>
@@ -28,7 +28,7 @@ const Footer = () => {
 
       {/* Bottom Social and Legal Links */}
       <div className="footer-bottom">
-        <p className="copyright">© 2012 Dumpling House. All rights reserved.</p>
+        <p className="copyright">© 2011 Dumpling House. All rights reserved.</p>
       </div>
 
       {/* Illustration Image (Barrel) */}
