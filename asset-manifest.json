@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dumplinghouse/static/css/main.c39f67df.css",
-    "main.js": "/dumplinghouse/static/js/main.fa68a071.js",
+    "main.js": "/dumplinghouse/static/js/main.f252b033.js",
     "static/js/453.419a5d54.chunk.js": "/dumplinghouse/static/js/453.419a5d54.chunk.js",
     "static/media/restaurant_logo.png": "/dumplinghouse/static/media/restaurant_logo.ef4eadd56e9c274efb39.png",
     "static/media/logo_notext.png": "/dumplinghouse/static/media/logo_notext.a1a9b13e30ea8a5b0a6b.png",
@@ -36,11 +36,11 @@
     "static/media/clam.png": "/dumplinghouse/static/media/clam.0ab6d8e6964f8b17332b.png",
     "index.html": "/dumplinghouse/index.html",
     "main.c39f67df.css.map": "/dumplinghouse/static/css/main.c39f67df.css.map",
-    "main.fa68a071.js.map": "/dumplinghouse/static/js/main.fa68a071.js.map",
+    "main.f252b033.js.map": "/dumplinghouse/static/js/main.f252b033.js.map",
     "453.419a5d54.chunk.js.map": "/dumplinghouse/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c39f67df.css",
-    "static/js/main.fa68a071.js"
+    "static/js/main.f252b033.js"
   ]
 }
