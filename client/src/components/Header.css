@@ -18,7 +18,7 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Ensures proper space distribution */
     align-items: center;
 }
 
@@ -57,7 +57,7 @@
     flex-direction: column;
     gap: 5px;
     z-index: 1100; /* Ensure it is above other elements */
-    margin-right: 35vw;
+    margin-right: 18vw; /* Let flexbox handle alignment */
 }
 
 .hamburger div {
@@ -74,17 +74,27 @@
     position: absolute;
     top: 60px; /* Positioned below the header */
     left: 0;
-    width: 100%;
+    width: 100%; /* Make sure the mobile menu takes the full width of the viewport */
     background-color: #07252d;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     z-index: 999;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .mobile-menu a {
     padding: 10px 0;
     border-bottom: 1px solid #ead8be;
     text-align: center;
+    color: #ead8be; /* Ensure consistent color */
+    text-decoration: none;
+}
+
+/* Ensure that visited, active, and hover links have consistent color */
+.mobile-menu a:visited, 
+.mobile-menu a:active, 
+.mobile-menu a:hover {
+    color: #ead8be; /* Same light gold color */
 }
 
 .mobile-menu a:hover {
@@ -103,12 +113,30 @@
 
     .mobile-menu {
         display: flex;
+        width: 100%; /* Ensure full-width menu on mobile */
+        max-width: 100vw; /* Ensure the mobile menu does not exceed viewport width */
+        box-sizing: border-box; /* Include padding and borders in the width */
     }
 
     .logo {
         width: 40px; /* Resize logo on smaller screens */
     }
 }
+
+/* Fix for macbook */
+@media (min-width: 1200px) {
+    .nav-links, .hamburger {
+        margin-right: 5vw; /* Remove extra margin on larger screens */
+    }
+}
+
+/* Fix for surface pro */
+@media (min-width: 900px) and (max-width: 1000px) {
+    .nav-links, .hamburger {
+        margin-right: 10vw; /* Apply the margin adjustment for Surface Pro screen width */
+    }
+}
+
 
 /* Hamburger Animation */
 .hamburger.active div:nth-child(1) {

@@ -1,0 +1,100 @@
+/* Menu Section Styling */
+.menu-section {
+    background-color: #07252d;
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* To position illustrations */
+    overflow: hidden; /* Prevent illustration overflow */
+}
+
+.menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+    z-index: 1; /* Ensures menu content stays above illustrations */
+}
+
+.menu-image {
+    width: 50%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu-text {
+    max-width: 50%;
+}
+
+.menu-text h2 {
+    font-size: 36px;
+    color: #ead8be;
+    font-family: 'Playfair Display', serif;
+}
+
+.menu-text p {
+    font-size: 18px;
+    color: #ead8be;
+    margin: 20px 0;
+}
+
+.view-menu-button {
+    padding: 15px 30px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-menu-button:hover {
+    background-color: #e03d00;
+}
+
+/* Parallax Effect for Illustrations */
+.parallax-image {
+    position: absolute;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 0; /* Behind content */
+    transition: transform 1s ease-out; /* Smooth transition for parallax */
+}
+
+.flower {
+    left: 5%;
+    bottom: 50%;
+    width: 150px;
+}
+
+.rsmary {
+    position: relative;  /* or position: fixed, or position: relative */
+    right: 10%;
+    top: 20%;
+    width: 20vw;
+    transform: rotate(180deg);
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .menu-content {
+        flex-direction: column;
+    }
+
+    .menu-image {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .parallax-image {
+        width: 100px;
+    }
+}

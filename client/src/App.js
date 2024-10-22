@@ -1,25 +1,34 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
-import Menu from './components/Menu';
-import FoodShowcase from './components/FoodShowcase';
+import MenuSection from './components/MenuSection';
 import Location from './components/Location';
 import DoorDash from './components/DoorDash';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
-import Header from './components/Header'; // Import Header
+import MenuPage from './components/Menupage';
 
 function App() {
   return (
-    <div>
-      <Header /> {/* Add Header here */}
-      <Hero />
-      <DoorDash />
-      <About />
-      <Location />
-      <Testimonials />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Header />
+            <Hero />
+            <DoorDash />
+            <About />
+            <MenuSection />
+            <Location />
+            <Testimonials />
+            <Footer />
+          </>
+        } />
+        <Route path="/menu" element={<MenuPage />} /> {/* Full menu page */}
+      </Routes>
+    </Router>
   );
 }
 

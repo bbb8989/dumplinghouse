@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './About.css'; // CSS for styling
-import khuushur from './icons/khuushur.jpg'; // Import the Khuushur image
+import plate from './icons/plate.jpg'; // Import the Khuushur image
 import clam from './icons/clam.png'; // Import the Clam image
 import berry from './icons/berry.png'; // Import the Berry image
 
@@ -32,7 +32,7 @@ const About = () => {
   };
 
   return (
-    <section className="about-section">
+    <section id="about" className="about-section">
       <div className="about-content">
         <div className="text-container">
           {/* Title and Lines */}
@@ -51,7 +51,7 @@ const About = () => {
           </p>
         </div>
         <div className="image-container">
-          <img src={khuushur} alt="Khuushur" />
+          <img src={plate} alt="Plate" />
         </div>
       </div>
 

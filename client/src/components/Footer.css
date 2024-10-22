@@ -1,102 +1,174 @@
 /* Main Footer Styles */
 .footer {
-    background-color: #0b333e; /* Dark blue background */
-    color: #e0c59d; /* Light gold text color */
-    padding: 40px 20px;
-    position: relative; /* For the illustration */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Georgia', serif; /* Classy, serif font for a professional look */
-  }
-  
+  background-color: #0b333e; /* Dark blue background */
+  color: #e0c59d; /* Light gold text color */
+  padding: 40px 20px;
+  position: relative; /* For the illustration */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Georgia', serif; /* Classy, serif font for a professional look */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 40px;
+  flex-wrap: wrap; /* Allows elements to wrap on smaller screens */
+}
+
+/* Adjust footer sections */
+.footer-left, .footer-center, .footer-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+/* Footer logo styles */
+.footer-logo {
+  width: 150px; /* Adjust logo size */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Footer text styling */
+.footer-center h3, .footer-right p {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/* Footer links styling */
+.footer-center a {
+  color: #e0c59d; /* Light gold text color */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-center a:hover {
+  color: #fff; /* White on hover */
+}
+
+/* Social and Legal Links */
+.footer-bottom {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Wrap content for smaller screens */
+}
+
+.social-links p, .legal-links p {
+  margin: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.social-links p:hover, .legal-links p:hover {
+  color: #fff;
+}
+
+.legal-links {
+  display: flex;
+  flex-wrap: wrap; /* Make legal links wrap on smaller screens */
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  font-size: 14px;
+  text-align: right;
+  margin-left: auto;
+}
+
+/* Footer Illustration Styling (Barrel Image) */
+.footer-illustration {
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  width: 400px; /* Adjust to the size you want */
+  opacity: 0.25; /* Half transparency */
+  margin-right: 10vw;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet and below */
+@media (max-width: 768px) {
   .footer-container {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Stack sections vertically */
     align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    margin-bottom: 40px;
   }
-  
-  /* Adjust footer sections */
+
   .footer-left, .footer-center, .footer-right {
-    flex: 1;
+    text-align: center;
+    padding: 10px; /* Add spacing between sections */
   }
-  
-  .footer-left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .footer-center {
+
+  .footer-right {
     text-align: center;
   }
-  
-  .footer-right {
-    text-align: right;
+
+  .footer-illustration {
+    width: 250px; /* Adjust illustration size for smaller screens */
+    right: 10px;
+    bottom: 20px;
+    margin-right: 0;
   }
-  
-  /* Footer logo styles */
-  .footer-logo {
-    width: 150px; /* Adjust logo size */
-    height: auto;
-    margin-bottom: 20px;
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 10px; /* Reduce padding on smaller devices */
   }
-  
-  /* Footer text styling */
-  .footer-center h3, .footer-right p {
-    margin: 10px 0;
-    font-size: 20px;
-    font-weight: normal;
-  }
-  
-  .footer-center h3:hover {
-    color: #fff; /* Hover color change for links */
-  }
-  
-  /* Social and Legal Links */
-  .footer-bottom {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
+
+  .footer-container {
+    flex-direction: column;
     align-items: center;
   }
-  
-  .social-links p, .legal-links p {
-    margin: 0 10px;
-    font-size: 14px;
-    cursor: pointer;
+
+  .footer-left, .footer-center, .footer-right {
+    padding: 10px 0; /* Reduce padding further */
+    width: 100%; /* Make each section take full width */
+    text-align: center; /* Center-align text */
   }
-  
-  .social-links p:hover, .legal-links p:hover {
-    color: #fff;
+
+  .footer-logo {
+    width: 100px; /* Smaller logo for mobile */
   }
-  
-  .legal-links {
-    display: flex;
-  }
-  
-  .social-links {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .copyright {
-    font-size: 14px;
-    text-align: right;
-    margin-left: auto;
-  }
-  
-  /* Footer Illustration Styling (Barrel Image) */
+
   .footer-illustration {
-    position: absolute;
-    right: 20px;
-    bottom: 40px;
-    width: 400px; /* Adjust to the size you want */
-    opacity: 0.25; /* Half transparency */
-    margin-right: 10vw;
+    width: 150px; /* Even smaller for mobile */
   }
-  
+
+  .copyright {
+    font-size: 12px; /* Smaller font size for copyright */
+  }
+
+  .social-links, .legal-links {
+    flex-direction: column; /* Stack social and legal links */
+    align-items: center;
+    margin: 10px 0;
+  }
+}

@@ -4,8 +4,8 @@ import onion from './icons/onion.png'; // Assuming you have the onion image here
 
 const testimonialsData = [
   {
-    quote: "This is an amazing restaurant. Great food and service. Consistent and flavorful. You can't go wrong with anything in the menu.",
-    author: "Alma A."
+    quote: 'It is the "must order" place if you want to experience an authentic mongolian cuisine!',
+    author: "Khosbayar B."
   },
   {
     quote: "Always our go to spot for good food, service and price. If you have not yet tried this location please go. Parking is hard to find and they don't serve alcohol beverages. But who needs it.",

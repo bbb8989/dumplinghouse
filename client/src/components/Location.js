@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Location.css';
 import grapefruit from './icons/grapefruit.png';
-import rosemary from './icons/rosemary.png'; // Import the rosemary image
+import mary from './icons/rosemary.png'; // Import the rosemary image
 
 const Location = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -55,9 +55,9 @@ const Location = () => {
 
       {/* Rosemary Illustration */}
       <img
-        src={rosemary}
+        src={mary}
         alt="Rosemary Illustration"
-        className="rosemary"
+        className="mary"
         style={rosemaryStyle} // Apply the vertical scroll effect for rosemary
       />
     </section>

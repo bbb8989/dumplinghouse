@@ -5,7 +5,7 @@ import buuz from './icons/buuz.jpg'; // Import the buuz image
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="home" className="hero">
       <div className="hero-text">
         <h1>Dumpling House</h1>
         <h1>Mongolian Cuisine</h1>

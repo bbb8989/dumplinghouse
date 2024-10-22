@@ -20,10 +20,12 @@ const Header = () => {
         {/* Navigation Links for Desktop */}
         <nav className="nav-links">
           <a href="#home">Home</a>
+          {/* Updated "Order Online" link with DoorDash URL */}
+          <a href="https://order.online/business/dumpling-house-13091475" target="_blank" rel="noopener noreferrer">
+            Order Online
+          </a>
           <a href="#about">About Us</a>
           <a href="#menu">Menu</a>
-          <a href="#order">Order Online</a>
-          <a href="#contact">Contact</a>
         </nav>
 
         {/* Hamburger Menu Icon */}
@@ -37,10 +39,12 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="mobile-menu">
             <a href="#home" onClick={toggleMenu}>Home</a>
+            {/* Updated "Order Online" link with DoorDash URL for mobile */}
+            <a href="https://order.online/business/dumpling-house-13091475" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>
+              Order Online
+            </a>
             <a href="#about" onClick={toggleMenu}>About Us</a>
             <a href="#menu" onClick={toggleMenu}>Menu</a>
-            <a href="#order" onClick={toggleMenu}>Order Online</a>
-            <a href="#contact" onClick={toggleMenu}>Contact</a>
           </nav>
         )}
       </div>

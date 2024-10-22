@@ -82,7 +82,7 @@
 .onion-illustration {
     position: absolute;
     left: 25vw; /* Position on the left */
-    top: -10vh; /* Position towards the top */
+    top: -30vh; /* Position towards the top */
     width: 150px; /* Set width */
     opacity: 0.8; /* Subtle opacity effect */
     pointer-events: none; /* Prevent interaction with the image */

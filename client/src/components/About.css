@@ -68,9 +68,9 @@
 }
 
 .image-container img {
-  width: 80%;
+  width: 100%;
   height: auto;
-  margin-right: 3vw;
+  margin-right: 0vw;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -97,6 +97,7 @@
   pointer-events: none; /* Prevent interaction with the image */
   transform: translateY(0); /* Default position */
   transition: transform 1s ease-out; /* Smooth movement with 1s duration */
+  z-index: 0;;
 }
 
 /* Responsive Styling */

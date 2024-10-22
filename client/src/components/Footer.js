@@ -12,9 +12,10 @@ const Footer = () => {
 
         {/* Navigation Links (Center Section) */}
         <div className="footer-center">
-          <h3>Home</h3>
-          <h3>Our Menus</h3>
-          <h3>About Us</h3>
+          <h3><a href="#home">Home</a></h3>
+          <h3><a href="#menu">Our Menus</a></h3>
+          <h3><a href="#about">About Us</a></h3>
+          <h3><a href="https://www.facebook.com/profile.php?id=100070616634664">Facebook</a></h3>
         </div>
 
         {/* Contact Information (Right Section) */}
@@ -27,13 +28,6 @@ const Footer = () => {
 
       {/* Bottom Social and Legal Links */}
       <div className="footer-bottom">
-        <div className="social-links">
-          <p>Facebook</p>
-        </div>
-        <div className="legal-links">
-          <p>Privacy Policy</p>
-          <p>Terms & Conditions</p>
-        </div>
         <p className="copyright">© 2012 Dumpling House. All rights reserved.</p>
       </div>
 
